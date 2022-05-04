@@ -4,8 +4,9 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-	"monkey/lexer"
-	"monkey/token"
+
+	"github.com/daqing/monkey/lexer"
+	"github.com/daqing/monkey/token"
 )
 
 const PROMPT = ">> "

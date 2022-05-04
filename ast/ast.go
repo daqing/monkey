@@ -1,6 +1,6 @@
 package ast
 
-import "monkey/token"
+import "github.com/daqing/monkey/token"
 
 type Node interface {
 	TokenLiteral() string
